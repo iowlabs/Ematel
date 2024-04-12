@@ -8630,6 +8630,12 @@
 		(uuid "548687dd-2471-4c97-9853-19b2db1503d8")
 	)
 	(junction
+		(at 179.07 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56a6b0da-e14a-487b-8da5-4f75e3bffb62")
+	)
+	(junction
 		(at 31.75 314.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8682,6 +8688,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e62a258-9ec7-4371-b63e-8a5589f7481e")
+	)
+	(junction
+		(at 179.07 347.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "708f4386-83df-4244-b43e-6763d76d70dc")
 	)
 	(junction
 		(at 231.14 129.54)
@@ -9314,6 +9326,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 374.65) (xy 179.07 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d10a7e-6180-491a-ac5d-963d72b8d261")
+	)
+	(wire
+		(pts
 			(xy 50.165 95.885) (xy 50.165 100.965)
 		)
 		(stroke
@@ -9674,6 +9696,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 347.98) (xy 179.07 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22078ca4-faab-4cbf-85c5-31f3b6f63d86")
+	)
+	(wire
+		(pts
+			(xy 170.18 347.98) (xy 170.18 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221171e4-e270-47cb-9211-af4d9dccda2e")
+	)
+	(wire
+		(pts
 			(xy 201.93 275.59) (xy 201.93 280.67)
 		)
 		(stroke
@@ -9761,6 +9803,16 @@
 			(type default)
 		)
 		(uuid "2ae4e903-0af8-42bf-9f4d-4773c4624f57")
+	)
+	(wire
+		(pts
+			(xy 179.07 347.98) (xy 187.96 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b101c85-f075-488a-a710-fd30d223e6c4")
 	)
 	(wire
 		(pts
@@ -9904,6 +9956,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 351.79) (xy 207.01 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32420386-5c32-4770-98b5-43a44eacb158")
+	)
+	(wire
+		(pts
 			(xy 222.25 57.15) (xy 234.95 57.15)
 		)
 		(stroke
@@ -9982,6 +10044,16 @@
 			(color 0 0 125 1)
 		)
 		(uuid "35ce6f5c-bb98-49e4-a621-ec180731a9e0")
+	)
+	(wire
+		(pts
+			(xy 179.07 387.35) (xy 179.07 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365011dd-b940-4c7a-beca-58839d701885")
 	)
 	(wire
 		(pts
@@ -10435,6 +10507,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 396.24) (xy 170.18 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c355b2-8228-489f-8c7f-2294ff659721")
+	)
+	(wire
+		(pts
 			(xy 234.95 41.91) (xy 242.57 41.91)
 		)
 		(stroke
@@ -10705,6 +10787,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 349.25) (xy 207.01 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66576809-b68c-4cb9-b7c6-ea6175b87cf8")
+	)
+	(wire
+		(pts
 			(xy 28.575 33.655) (xy 33.655 33.655)
 		)
 		(stroke
@@ -10712,6 +10804,16 @@
 			(type default)
 		)
 		(uuid "67c05a50-4bbd-4332-a111-623a88e234c9")
+	)
+	(wire
+		(pts
+			(xy 170.18 377.19) (xy 179.07 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d82f93-0633-46ce-8533-d5d9021f4bd4")
 	)
 	(wire
 		(pts
@@ -11645,6 +11747,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 345.44) (xy 179.07 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a0a357-69d1-4bac-8185-57ec118f05d6")
+	)
+	(wire
+		(pts
 			(xy 187.96 179.705) (xy 187.96 180.34)
 		)
 		(stroke
@@ -12185,6 +12297,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 396.24) (xy 179.07 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b718b81d-f52d-4a98-bcf8-1230dcc37126")
+	)
+	(wire
+		(pts
 			(xy 444.5 48.26) (xy 447.04 48.26)
 		)
 		(stroke
@@ -12192,6 +12314,16 @@
 			(type default)
 		)
 		(uuid "b739cc01-ce33-46a5-8dd5-791ecc2d85c3")
+	)
+	(wire
+		(pts
+			(xy 187.96 387.35) (xy 187.96 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b750e49b-58b3-471e-b2c1-8b92eabc1986")
 	)
 	(wire
 		(pts
@@ -12755,6 +12887,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 396.24) (xy 187.96 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10785d5-c212-461e-8cc1-c451da1c6107")
+	)
+	(wire
+		(pts
 			(xy 63.5 163.83) (xy 66.04 163.83)
 		)
 		(stroke
@@ -12762,6 +12904,16 @@
 			(type default)
 		)
 		(uuid "d17ae46a-a141-4d4c-b003-848d1059bcb7")
+	)
+	(wire
+		(pts
+			(xy 179.07 377.19) (xy 187.96 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22dc050-9cf9-4091-8182-0db62c831792")
 	)
 	(polyline
 		(pts
@@ -12905,6 +13057,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 387.35) (xy 170.18 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa4f5bf-2081-4074-9e22-9cd5c2c5fa7a")
+	)
+	(wire
+		(pts
 			(xy 257.81 133.35) (xy 259.08 133.35)
 		)
 		(stroke
@@ -12942,6 +13104,16 @@
 			(type default)
 		)
 		(uuid "df7c5809-5f44-49ea-819a-7a9d3f5a50c3")
+	)
+	(wire
+		(pts
+			(xy 179.07 347.98) (xy 179.07 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1026061-2c57-4def-a0bc-ad5751d9cfb9")
 	)
 	(wire
 		(pts
@@ -13385,6 +13557,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 347.98) (xy 187.96 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97a6d96-a1d8-4f6e-8af3-0a1d0f942b31")
+	)
+	(wire
+		(pts
 			(xy 57.785 37.465) (xy 62.865 37.465)
 		)
 		(stroke
@@ -13492,6 +13674,18 @@
 			(type default)
 		)
 		(uuid "fff3770d-685a-4e14-a6bc-a5ce965f112d")
+	)
+	(rectangle
+		(start 160.782 324.358)
+		(end 270.764 405.13)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1f2fb1c3-88df-4cc3-903c-c4e04554ae5d)
 	)
 	(rectangle
 		(start 168.91 12.7)
@@ -13670,6 +13864,19 @@
 			(justify left bottom)
 		)
 		(uuid "4e90673a-4b2b-46ca-9492-9a2301f0a322")
+	)
+	(text "MCP23017 IO EXTENSOR"
+		(exclude_from_sim no)
+		(at 185.928 330.708 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+				(thickness 0.5994)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5428e2a9-f0b5-4fcf-9717-640f33e80604")
 	)
 	(text "4-20mA INA219"
 		(exclude_from_sim no)
@@ -14762,6 +14969,28 @@
 			)
 		)
 	)
+	(global_label "A0"
+		(shape input)
+		(at 170.18 386.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0660b440-d1a8-4e54-bf8b-28e8b2dbc811")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.4633 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RS485_B_ch2"
 		(shape input)
 		(at 401.32 160.02 0)
@@ -14841,6 +15070,28 @@
 		(uuid "0c50d058-3831-4081-a423-8a5c44aa6c3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 366.0602 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCP_RESET"
+		(shape input)
+		(at 170.18 358.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cbe95db-8c98-4048-b9e3-308a3a14236e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.18 371.8293 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15022,6 +15273,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INTB"
+		(shape input)
+		(at 207.01 364.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2177522c-5658-4fc2-a491-b606afd74c51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.8519 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15290,6 +15563,28 @@
 			)
 		)
 	)
+	(global_label "MCP_RESET"
+		(shape input)
+		(at 207.01 372.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50b3ffc2-4bf1-4722-b58f-4f1604cb0d1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.3207 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "420_VDD_ch1+"
 		(shape input)
 		(at 257.81 133.35 180)
@@ -15444,6 +15739,28 @@
 			)
 		)
 	)
+	(global_label "A2"
+		(shape input)
+		(at 207.01 384.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66d2746d-2821-41d4-b86c-baf0e710c371")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.7267 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDL_3V3"
 		(shape input)
 		(at 222.25 295.91 0)
@@ -15457,6 +15774,28 @@
 		(uuid "69602bda-4999-4afa-82e3-3632b5ef8afa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 233.0971 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1"
+		(shape input)
+		(at 179.07 386.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70f8db6f-2fc4-4053-bead-25dc5cbce15f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.3533 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15664,6 +16003,28 @@
 			)
 		)
 	)
+	(global_label "INTA"
+		(shape input)
+		(at 207.01 367.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a8801c8-46b2-4443-9b90-24a6c8bdebae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.0333 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RS485_VSS_ch2"
 		(shape input)
 		(at 469.9 161.29 0)
@@ -15732,7 +16093,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 204.47 339.09 180)
+		(at 198.12 349.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15742,7 +16103,7 @@
 		)
 		(uuid "8f5b074c-0905-48c8-9016-53085e3053dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9167 339.09 0)
+			(at 191.5667 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15796,6 +16157,28 @@
 			)
 		)
 	)
+	(global_label "A1"
+		(shape input)
+		(at 207.01 387.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90959bd4-00a1-48a1-b88a-cba3db958059")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.7267 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KR2"
 		(shape input)
 		(at 447.04 60.96 0)
@@ -15842,7 +16225,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 204.47 341.63 180)
+		(at 198.12 351.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15852,7 +16235,29 @@
 		)
 		(uuid "9694df9c-e285-4d3c-b7f1-a181a1fdd551")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9772 341.63 0)
+			(at 191.6272 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INTA"
+		(shape input)
+		(at 179.07 358.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97a3abd0-b70e-4715-976e-f5f0ba1e90df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 365.1167 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16148,6 +16553,28 @@
 			)
 		)
 	)
+	(global_label "A2"
+		(shape input)
+		(at 187.96 386.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b90b253d-7aec-4cc7-a092-d8454c0cb903")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.2433 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI1_MISO"
 		(shape input)
 		(at 447.04 78.74 0)
@@ -16258,6 +16685,28 @@
 			)
 		)
 	)
+	(global_label "A0"
+		(shape input)
+		(at 207.01 389.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd182295-58b5-4695-a795-fe2187af74fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.7267 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 202.565 204.47 180)
@@ -16315,6 +16764,28 @@
 		(uuid "e16ad8eb-9518-458c-a174-772dfb4e3b83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 388.1582 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INTB"
+		(shape input)
+		(at 187.96 358.14 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2a7d98f-1bb9-4427-a666-48a1d92606b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 365.2981 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16564,6 +17035,76 @@
 			(project "ematel_PCB"
 				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 187.96 381 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "016d5cb2-c1a3-4da6-8727-8fc0fd10598f")
+		(property "Reference" "JP9"
+			(at 184.15 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 185.42 379.7301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 187.96 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ac18f53-1920-4498-a03d-a28898be5454")
+		)
+		(pin "2"
+			(uuid "d62d02c5-4ccb-45c1-b97e-df513d47e86a")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -17082,6 +17623,84 @@
 		)
 	)
 	(symbol
+		(lib_id "IoWLabs:RES")
+		(at 187.96 391.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0947325a-c7f0-44ac-ac0b-82062ab11685")
+		(property "Reference" "R53"
+			(at 186.563 391.9728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 186.436 390.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 187.96 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "433bcd23-39ba-4196-9df6-f80327ab9e96")
+		)
+		(pin "2"
+			(uuid "93fdcab6-12f4-4525-93ab-ac473c915959")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 122.555 235.585 0)
 		(unit 1)
@@ -17394,7 +18013,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 286.512 113.284 0)
 			(effects
 				(font
@@ -17710,6 +18329,84 @@
 		)
 	)
 	(symbol
+		(lib_id "IoWLabs:RES")
+		(at 170.18 354.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d540660-92ff-479a-b52b-210ec82559d0")
+		(property "Reference" "R54"
+			(at 168.783 355.1428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 168.656 353.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 170.18 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b11d467-45da-4b4e-844d-2c57f0430ffa")
+		)
+		(pin "2"
+			(uuid "74e5a4e5-a6de-4115-89ab-0194654be97a")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 295.91 124.46 90)
 		(unit 1)
@@ -17798,7 +18495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 222.504 115.824 0)
 			(effects
 				(font
@@ -17985,6 +18682,72 @@
 			(project "ematel_PCB"
 				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 396.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "120220f1-cb19-44b9-81a7-e1a10412d4e3")
+		(property "Reference" "#PWR087"
+			(at 179.07 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 397.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eea053a-e4d4-4a72-a63b-7cac15c55003")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -18313,6 +19076,72 @@
 			(project "ematel_PCB"
 				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 396.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16181f1a-7c61-4c6c-a1f3-e3cd21fa1b67")
+		(property "Reference" "#PWR086"
+			(at 170.18 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 397.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8ef56d9-e509-4f4f-80ac-e75d4868e548")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -19879,7 +20708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 215.138 114.3 0)
 			(effects
 				(font
@@ -20092,6 +20921,72 @@
 			(project "ematel_PCB"
 				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 397.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2caf49e7-ff71-4747-8a19-09ee1b8125ad")
+		(property "Reference" "#PWR085"
+			(at 224.79 403.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a832e61-4c9f-44d1-8c7b-3f23a97491d9")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -21592,7 +22487,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "10k"
 			(at 263.9822 203.073 0)
 			(effects
 				(font
@@ -22185,6 +23080,71 @@
 			(project "ematel_PCB"
 				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 179.07 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54db286c-47d8-4be2-bed3-fd3ae9810fc2")
+		(property "Reference" "#PWR089"
+			(at 179.07 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 179.451 370.2558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0eae9da-eee8-4c22-bb64-81960078c014")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -23461,6 +24421,84 @@
 		)
 	)
 	(symbol
+		(lib_id "IoWLabs:RES")
+		(at 170.18 391.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63bbb749-96d1-44cc-9ef1-343c29c200be")
+		(property "Reference" "R51"
+			(at 168.783 391.9728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 168.656 390.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 170.18 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1218eb94-b235-4148-8562-d99fe7c707d9")
+		)
+		(pin "2"
+			(uuid "8b85507f-0098-4cc5-b82f-2b949b0af203")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 293.37 119.38 0)
 		(unit 1)
@@ -23478,7 +24516,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 294.64 116.586 0)
 			(effects
 				(font
@@ -23524,6 +24562,84 @@
 			(project "ematel_PCB"
 				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IoWLabs:RES")
+		(at 179.07 354.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6440bc5b-9aa0-43bf-9dcf-b6b19ee128b7")
+		(property "Reference" "R55"
+			(at 177.673 355.1428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 177.546 353.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 176.53 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 179.07 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d722b675-1c4e-479f-a907-0453f9c4703b")
+		)
+		(pin "2"
+			(uuid "17984e7d-6e1e-4e41-9035-df36e643aef9")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -23625,7 +24741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "10k"
 			(at 256.3622 203.073 0)
 			(effects
 				(font
@@ -25084,6 +26200,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 170.18 381 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74edaaf7-6e7a-4a06-a85e-2ebc248626d5")
+		(property "Reference" "JP7"
+			(at 166.37 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 167.64 379.7301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 170.18 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceec8b75-b801-4a8a-b5cf-a06e7b9e319f")
+		)
+		(pin "2"
+			(uuid "d3d9c602-e871-405a-832e-86b194129615")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IoWLabs:RES")
+		(at 187.96 354.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7509280a-fa31-4ffc-ad1a-5779db589269")
+		(property "Reference" "R56"
+			(at 186.563 355.1428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 186.436 353.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 187.96 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d85dafa7-fb66-4e29-8478-90cd80bbb254")
+		)
+		(pin "2"
+			(uuid "c0b053c9-73d4-440c-9356-4b3f898d164b")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 237.49 215.9 0)
 		(unit 1)
@@ -26351,6 +27615,71 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 179.07 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c14c09e-19ca-4524-acf2-30a7e5c72170")
+		(property "Reference" "#PWR092"
+			(at 179.07 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 179.451 341.0458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "566a2df2-8132-411b-9923-ca75ba968fd6")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 275.59 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27468,6 +28797,84 @@
 		)
 	)
 	(symbol
+		(lib_id "IoWLabs:RES")
+		(at 201.93 351.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ecc7d46-fd8c-4c90-b2a5-b3130caef5f4")
+		(property "Reference" "R50"
+			(at 203.962 354.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 203.454 356.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 201.93 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "828ec0ec-083c-434b-9aa4-27c68a6e07e4")
+		)
+		(pin "2"
+			(uuid "f82fe35f-9ccd-4e90-b6f6-4bf2dca95f21")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IoWLabs:C")
 		(at 122.555 228.6 0)
 		(unit 1)
@@ -28408,6 +29815,84 @@
 		)
 	)
 	(symbol
+		(lib_id "IoWLabs:RES")
+		(at 179.07 391.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9fbcdec-4894-43de-9928-9d8343e08ad9")
+		(property "Reference" "R52"
+			(at 177.673 391.9728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 177.546 390.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 176.53 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 179.07 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85d82dd9-e0e6-4cde-93a8-5995a208008e")
+		)
+		(pin "2"
+			(uuid "153ba38f-1fac-495c-8de6-6b71441196b9")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 78.74 231.14 0)
 		(unit 1)
@@ -28540,7 +30025,7 @@
 	)
 	(symbol
 		(lib_id "Interface_Expansion:MCP23017_SO")
-		(at 222.25 359.41 0)
+		(at 224.79 369.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28549,7 +30034,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad93e5ea-c64f-41e2-9053-b80518ecbf0d")
 		(property "Reference" "U15"
-			(at 224.4441 331.47 0)
+			(at 226.9841 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28558,7 +30043,7 @@
 			)
 		)
 		(property "Value" "MCP23017_SO"
-			(at 224.4441 334.01 0)
+			(at 226.9841 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28567,7 +30052,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
-			(at 227.33 384.81 0)
+			(at 229.87 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28577,7 +30062,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
-			(at 227.33 387.35 0)
+			(at 229.87 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28587,7 +30072,7 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28"
-			(at 222.25 359.41 0)
+			(at 224.79 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28683,6 +30168,84 @@
 			(project "ematel_PCB"
 				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
 					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IoWLabs:RES")
+		(at 201.93 349.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae890f1f-2bb2-4748-ba7c-bb80f31884b7")
+		(property "Reference" "R49"
+			(at 203.708 345.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 203.454 347.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 207.01 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 201.93 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e17949-a6a0-4334-b8ff-afbe443b6346")
+		)
+		(pin "2"
+			(uuid "8b70466f-c9ad-4f5f-affa-af4147c1f024")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -28813,6 +30376,71 @@
 			(project "ematel_PCB"
 				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 224.79 341.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b196ccd1-eea0-4476-a6a0-bef2f7883f68")
+		(property "Reference" "#PWR090"
+			(at 224.79 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 225.171 337.2358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fae56fc6-e0a6-46c8-ac51-b8dfd973df5e")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -32440,6 +34068,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 187.96 396.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eff42667-506a-444f-97f1-9ced6a94115a")
+		(property "Reference" "#PWR088"
+			(at 187.96 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 397.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15df91a8-ff2a-4486-8fd9-751373bd38b6")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 17.78 359.41 0)
 		(unit 1)
@@ -32636,6 +34330,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 179.07 381 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f625c192-9eb5-42c6-86f5-2bd0bc83171a")
+		(property "Reference" "JP8"
+			(at 175.26 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 176.53 379.7301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 179.07 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea43699b-43d2-4813-9672-b6b369a68099")
+		)
+		(pin "2"
+			(uuid "9574f8ee-a71d-465c-8e6f-f4ee307e3df3")
+		)
+		(instances
+			(project "ematel_PCB"
+				(path "/b0b5c473-8231-46e2-8f9b-af8e2b48f58b"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 290.83 110.49 0)
 		(unit 1)
@@ -32717,7 +34481,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 24.13 121.0564 90)
 			(effects
 				(font
