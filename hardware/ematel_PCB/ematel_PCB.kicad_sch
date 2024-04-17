@@ -16003,6 +16003,28 @@
 			)
 		)
 	)
+	(global_label "VIN_12V"
+		(shape input)
+		(at 59.69 275.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06bde6c6-e06c-4127-8274-6bbd75b065de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.2057 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RS485_B_ch2"
 		(shape input)
 		(at 401.32 160.02 0)
@@ -16280,28 +16302,6 @@
 		(uuid "17d50797-6756-434e-b1de-069a2f56ff03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 27.5552 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V_IN"
-		(shape input)
-		(at 59.69 275.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "189aa9d4-cdd3-4e17-9350-ccf08a63eaed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.2943 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22804,7 +22804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical"
 			(at 389.89 248.92 0)
 			(effects
 				(font
@@ -30767,7 +30767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 370.84 311.15 0)
 			(effects
 				(font
@@ -30985,7 +30985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 425.45 311.15 0)
 			(effects
 				(font
@@ -31365,7 +31365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-AM_1x08_P2.50mm_Vertical"
 			(at 370.84 254 0)
 			(effects
 				(font
@@ -39677,7 +39677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
 			(at 398.78 311.15 0)
 			(effects
 				(font
