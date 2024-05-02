@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator with MQTT</title>
+  <style>
+    /* Calculator styling */
+    .calculator {
+      width: 250px;
+      margin: 50px auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+    .calculator input[type="button"] {
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="calculator">
+  <input type="text" id="display" disabled>
+  <br>
+  <input type="button" value="1" onclick="addToDisplay(1)">
+  <input type="button" value="2" onclick="addToDisplay(2)">
+  <input type="button" value="3" onclick="addToDisplay(3)">
+  <br>
+  <!-- Add the MQTT send button -->
+  <input type="button" value="Send" onclick="sendNumberThroughMQTT()">
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+<script>
+  // MQTT broker settings
+  var brokerUrl = "192.168.1.92";
+  var brokerPort = 9001;
+  var clientId = "15615";
+
+  //https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js
+
+  //var brokerUrl = "192.168.1.92";
+  //var brokerPort = 9001;
+
+  //var brokerUrl = "broker.hivemq.com";  
+  //var brokerPort = 8000;
+
+  // Create an MQTT client instance
+  //var client = new Paho.MQTT.Client(brokerUrl, brokerPort, clientId);
+  var client = new Paho.MQTT.Client(brokerUrl, brokerPort, clientId);
+
+  client.onConnectionLost = onConnectionLost;
+  client.onMessageArrived = onMessageArrived;
+
+  // Connect to the MQTT broker
+  client.connect({ onSuccess: onConnect, onFailure: onFailure });
+
+  // Called when the client connects
+  function onConnect() {
+    console.log("Connected to MQTT broker");
+  }
+
+  // Function to send the number through MQTT
+  function sendNumberThroughMQTT() {
+    var displayValue = document.getElementById("display").value;
+    var message = new Paho.MQTT.Message(displayValue);
+    message.destinationName = "test";
+    client.send(message);
+    console.log("Sent number:", displayValue);
+  }
+
+  // Function to add numbers to the calculator display
+  function addToDisplay(number) {
+    document.getElementById("display").value += number;
+  }
+
+
+  // Called when the connection fails
+  function onFailure(errorMessage) {
+    console.error("Failed to connect to MQTT broker:", errorMessage.errorMessage);
+  }
+  
+  function onConnectionLost(responseObject) {
+    if (responseObject.errorCode !== 0) {
+      console.log("Connection lost:", responseObject.errorMessage);
+    }
+  }
+
+  function onMessageArrived(message) {
+    console.log("Message arrived on topic:", message.destinationName);
+    console.log("Payload:", message.payloadString);
+  }
+</script>
+
+</body>
+</html>

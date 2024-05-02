@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora MQTT</title>
+</head>
+<body>
+    <h1>Calculadora MQTT</h1>
+    <input type="text" id="display" disabled><br><br>
+    <button onclick="sendNumber(7)">7</button>
+    <button onclick="sendNumber(8)">8</button>
+    <button onclick="sendNumber(9)">9</button>
+    <button onclick="sendOperation('+')">+</button><br>
+    <button onclick="sendNumber(4)">4</button>
+    <button onclick="sendNumber(5)">5</button>
+    <button onclick="sendNumber(6)">6</button>
+    <button onclick="sendOperation('-')">-</button><br>
+    <button onclick="sendNumber(1)">1</button>
+    <button onclick="sendNumber(2)">2</button>
+    <button onclick="sendNumber(3)">3</button>
+    <button onclick="sendOperation('*')">*</button><br>
+    <button onclick="sendNumber(0)">0</button>
+    <button onclick="sendOperation('.')">.</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="sendOperation('/')">/</button><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.2.7/mqtt.min.js"></script>
+    <script>
+        
+        var mqttBroker = "mqtt://192.168.1.92:1883"; // Dirección IP y puerto del servidor MQTT
+        var mqttTopic = "test"; // Tema MQTT para enviar los números
+
+        var client = mqtt.connect(mqttBroker, {
+            clientId: "calculator_client" // ID del cliente MQTT
+        });
+
+        // Callback cuando se conecta al servidor MQTT
+        client.on('connect', function () {
+            console.log("Conectado al servidor MQTT");
+        });
+
+        // Función para enviar un número por MQTT
+        function sendNumber(number) {
+            client.publish(mqttTopic, number.toString());
+        }
+
+        // Función para enviar una operación por MQTT
+        function sendOperation(operation) {
+            client.publish(mqttTopic, operation);
+        }
+
+        // Función para calcular el resultado
+        function calculate() {
+            // Implementa la lógica de cálculo aquí
+        }
+    </script>
+</body>
+</html>
