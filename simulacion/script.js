@@ -1,5 +1,7 @@
 
 
+src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"
+
 let ingreso = false;
 let baseTime = 0;
 let pauseTime = 0;
@@ -18,11 +20,19 @@ let orangeButtonPressed = false;
 let ingresoPausa = false;
 let gatoPausa = false;
 
+var brokerUrl = "broker.hivemq.com";
+var brokerPort = 8000;
+var clientId = "1556898409";
+var client = new Paho.MQTT.Client(brokerUrl, brokerPort, clientId);
 
+client.onConnectionLost = onConnectionLost;
+client.onMessageArrived = onMessageArrived;
 
+// Connect to the MQTT broker
+client.connect({ onSuccess: onConnect, onFailure: onFailure });
 
-
-
+let sensorCount = 0;
+changeText();
 
 
 
@@ -34,10 +44,25 @@ function appendToDisplay(value) {
             pauseTime = new Date();
             hour = pauseTime.getHours();
             minutes = pauseTime.getMinutes();
-            display.value = `Hora pausa: ${hour}:${minutes}`;
+            if (minutes < 10){
+                display.value = `Hora pausa: ${hour}:0${minutes}`;
+                
+            }
+            else{display.value = `Hora pausa: ${hour}:${minutes}`;
+                 }
+            
+            var horasTrabajadas = pauseTime - startTime;
             baseTimeHoras = baseTime + pauseTime - startTime;
             orangeButtonPressed = false;
             gatoPausa = true;
+
+            mm =  `Pausa. Horas trabajadas: ${Math.floor(horasTrabajadas/3600000)} hrs:${Math.floor(horasTrabajadas/60000)} min`;
+            var message = new Paho.MQTT.Message(mm);
+            message.destinationName = "test_sexy";
+            client.send(message);
+
+            setTimeout(function() {display.value = `Horas trabajadas: ${Math.floor(horasTrabajadas/3600000)} hrs:${Math.floor(horasTrabajadas/60000)} min`}, 3000);
+
         }
         
         
@@ -57,35 +82,63 @@ function appendToDisplay(value) {
         
     }
     
-    if (greenButtonPressed) {
+    if (greenButtonPressed | ingresoRUT) {
         
         if (value == '#'){
             gatoInicio = true
             greenButtonPressed = false;
+            ingresoRUT = false;
             startTime = new Date();
             hour = startTime.getHours();
             minutes = startTime.getMinutes();
-            display.value = `Hora entrada: ${hour}:${minutes}`;
+            
+            if (minutes < 10){
+                display.value = `Hora entrada: ${hour}:0${minutes}`;
+                mm =  `Hora entrada: ${hour}:0${minutes}`;
+                var message = new Paho.MQTT.Message(mm);
+                message.destinationName = "test_sexy";
+                client.send(message);
+            }
+            else{display.value = `Hora entrada: ${hour}:${minutes}`;
+                mm =  `Hora entrada: ${hour}:${minutes}`;
+                var message = new Paho.MQTT.Message(mm);
+                message.destinationName = "test_sexy";
+                client.send(message);}
+            
             
             
         }
         else{
-            //display.value = display.value.length; 
-            if(display.value.length < 10 && value != 'A' && value != 'B' && value != 'C' && value != 'D')
-                {
-                    console.log(value);
-                    rut += value;
+            ingresoRUT = true;
+            greenButtonPressed = false;
+            //display.value = display.value.length;
+            
+            if(rut.length < 10 & value != 'A' && value != 'B' && value != 'C' && value != 'D')
+
+                {                  
+                    if(rut.length < 9){
+                        display.value = " ";
+                        rut += value;
+                    
                     for(var i = 0; i <= empty_display.length; i++){
                         if (i < rut.length){
-                            display.value += rut[i];
+                            if (i < 8){
+                                display.value += rut[i];
+                            }
+                            else{
+                                display.value += "-" + rut[8];
+                            }                            
                         }
                         else{
-                            display.value += empty_display[i] + " ";
+                            if(i < 10 & rut.length < 9){
+                                display.value += empty_display[i] + " ";
+                            }
                         }
                             
-                    } 
+                    } }
 
                     }
+            
             
         }
         
@@ -113,8 +166,10 @@ function handleAction(action) {
 
     
         // Green button is not pressed, allow only orange or red button actions
-        switch (action) {
-            case 'INICIO':
+        
+        
+            
+            if(action == 'INICIO'){
                 if (begin | ingresoRUT | gatoPausa){
                     display.value = 'Ingreso: escriba su rut/RFID';
                     greenButtonPressed = true;
@@ -123,31 +178,39 @@ function handleAction(action) {
                     gatoPausa = false;
                     display.value = '_ _ _ _ _ _ _ _ - _';
                     rut = "";
-                    green_buttons[0].style.boxShadow =  "0 0 15px 10px rgba(0, 0, 0, 0.3), 0 0 20px 15px rgba(0, 0, 0, 0.25)";
-                    break;
-                }
+                    green_buttons[0].style.boxShadow =  "0 0 15px 10px green, 0 0 20px 15px green";
+                    
+                }}
 
-            case 'PAUSA':
+            if(action == 'PAUSA'){
                 if(gatoInicio){
+                console.log(action);
                 display.value = 'Razón de pausa?';
                 orangeButtonPressed = true;
                 gatoInicio = false;
-                endTime_pausa = new Date();
-                orange_buttons[0].style.boxShadow =  "0 0 15px 10px rgba(0, 0, 0, 0.3), 0 0 20px 15px rgba(0, 0, 0, 0.25)";
-                break;}
+                orange_buttons[0].style.boxShadow =  "0 0 15px 10px orange, 0 0 20px 15px orange";
+                }}
 
-            case 'TERMINO':
+            if(action == 'TERMINO'){
                 if(gatoInicio){
                 gatoInicio = false;
+                begin = true;
                 endTime = new Date(); // Record the end time when red button is pressed
-                red_buttons[0].style.boxShadow =  "0 0 15px 10px rgba(0, 0, 0, 0.3), 0 0 20px 15px rgba(0, 0, 0, 0.25)";
+                red_buttons[0].style.boxShadow =  "0 0 15px 10px red, 0 0 20px 15px red";
                 totalTime = endTime - startTime + baseTime;
-                console.log(totalTime);
-                display.value = `Fin: ${endTime.getHours()}: ${endTime.getMinutes()} hrs, ${Math.floor(totalTime/3600000)}: ${Math.floor(totalTime/60000)} hrs trabajadas`;
-                break;   }
+
+                mm = `Término. Horas totales trabajadas:  ${Math.floor(totalTime/3600000)} hrs: ${Math.floor(totalTime/60000)} min`;
+                var message = new Paho.MQTT.Message(mm);
+                message.destinationName = "test_sexy";
+                client.send(message);
+                
+                display.value = `Fin: ${endTime.getHours()}: ${endTime.getMinutes()} hrs`
+                setTimeout(function() {display.value = `Horas totales: ${Math.floor(totalTime/3600000)} hrs: ${Math.floor(totalTime/60000)} min`;}, 3000);}
+            }
+            
             
         
-    } 
+     
     
     
 }
@@ -161,7 +224,7 @@ function writeToDisplay(text) {
     } else {
         // Green button pressed, record the start time and allow number pads or RFID inputs
         //startTime = new Date(); // Record the start time when green button is pressed
-        display.value = `198760981`;
+        display.value = `19876098-1`;
         greenButtonPressed = true;
     }
 }
@@ -176,6 +239,27 @@ function simulateOrangeButtonAction() {
         display.value = `Difference in seconds: ${differenceInSeconds.toFixed(2)}, Entered number: ${numberInput}`;
     }, 5000); // Wait for 5 seconds before prompting for number input
 }
+
+function resetSensor(){
+    console.log("Let's reset");
+}
+
+function changeText() {
+
+    var extra = Math.floor(Math.random()*10/2);
+    sensorCount += extra; // Generate random text
+    if(extra > 0){
+        document.getElementById('info-box').style.backgroundColor = "yellow";
+        document.getElementById('data-sensor').textContent = sensorCount; // Change text content
+        setTimeout(function() {document.getElementById('info-box').style.backgroundColor = "lightgray";}, 1000);
+
+    }
+    
+    var randomTime = Math.floor(Math.random() * 5000) + 1000; // Generate random time between 1 and 5 seconds
+    setTimeout(changeText, randomTime); // Call the function recursively after random time
+}
+
+/// MQTT FUNCTIONS
 
 function onConnect() {
     console.log("Connected to MQTT broker");
@@ -194,8 +278,56 @@ if (responseObject.errorCode !== 0) {
 function onMessageArrived(message) {
 console.log("Message arrived:", message.payloadString);
 }
+
+
 function sendMessage(message){
     var message_to_send = new Paho.MQTT.Message("Hello, MQTT!");
     message_to_send.destinationName = "your/topic";
     client.send(message_to_send)
 }
+
+function onConnect() {
+    console.log("Connected to MQTT broker");
+    client.subscribe("test_sexy");
+  }
+
+  // Function to send the number through MQTT
+  function sendNumberThroughMQTT() {
+    var displayValue = document.getElementById("display").value;
+    var message = new Paho.MQTT.Message(displayValue);
+    message.destinationName = "test_sexy";
+    client.send(message);
+    console.log("Sent number:", displayValue);
+  }
+
+  // Function to add numbers to the calculator display
+  function addToDisplay(number) {
+    document.getElementById("display").value += number;
+  }
+
+
+  // Called when the connection fails
+  function onFailure(errorMessage) {
+    console.error("Failed to connect to MQTT broker:", errorMessage.errorMessage);
+  }
+  
+  function onConnectionLost(responseObject) {
+    if (responseObject.errorCode !== 0) {
+      console.log("Connection lost:", responseObject.errorMessage);
+    }
+  }
+
+  function onMessageArrived(message) {
+    console.log("Message arrived on topic:", message.destinationName);
+    console.log("Payload:", message.payloadString);
+
+    
+  }
+
+  // Subscribe to a topic
+function subscribeToTopic(topic) {
+    client.subscribe(topic);
+}
+
+
+

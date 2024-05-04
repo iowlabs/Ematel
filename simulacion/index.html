@@ -42,12 +42,27 @@
 
         
     </div>
-
+    
     <div class="rfid-button-container">
         <button class="rfid-button" onclick="writeToDisplay('RFID')">RFID</button>
     </div>
-</div>
 
+    
+    <div style="margin-top: 50px; margin-left: 50px;">
+        <img id="blinking-image" src="sensor.png" alt="Your Image" style="width: 200px; height: 150px;">
+    </div>
+
+   
+
+    <div style="margin-top: 290px; margin-left: -220px;">
+        <button class="reset-button" onclick ="resetSensor()">RESET</button>
+        <div id="info-box" style="margin-top: -50px; margin-left: 100px; padding: 10px; border-radius: 5px; background-color: lightgray;">
+        <span id="data-sensor" style="font-size: 30px; color: black;" >Dynamic Information</span>
+    </div>
+        
+    </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

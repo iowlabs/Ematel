@@ -37,9 +37,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
 <script>
   // MQTT broker settings
-  var brokerUrl = "192.168.1.92";
-  var brokerPort = 9001;
-  var clientId = "15615";
+
+  var brokerUrl = "broker.hivemq.com";
+  var brokerPort = 8000;
+  var clientId = "15568984";
+
+  //var brokerUrl = "192.168.1.92";
+  //var brokerPort = 9001;
+  //var clientId = "15615";
 
   //https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js
 
@@ -62,13 +67,14 @@
   // Called when the client connects
   function onConnect() {
     console.log("Connected to MQTT broker");
+    client.subscribe("test_sexy");
   }
 
   // Function to send the number through MQTT
   function sendNumberThroughMQTT() {
     var displayValue = document.getElementById("display").value;
     var message = new Paho.MQTT.Message(displayValue);
-    message.destinationName = "test";
+    message.destinationName = "test_sexy";
     client.send(message);
     console.log("Sent number:", displayValue);
   }
@@ -93,7 +99,14 @@
   function onMessageArrived(message) {
     console.log("Message arrived on topic:", message.destinationName);
     console.log("Payload:", message.payloadString);
+
+    
   }
+
+  // Subscribe to a topic
+function subscribeToTopic(topic) {
+    client.subscribe(topic);
+}
 </script>
 
 </body>

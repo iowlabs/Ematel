@@ -58,6 +58,8 @@ body {
     border: 2px solid #00ff00; /* Green border for the display */
 }
 
+
+
 .keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -103,14 +105,28 @@ button:active {
       
 }
 
+
+
 .orange-button {
-    background-color: orange; /* Orange background */
+    background-color: rgb(248, 175, 38); /* Orange background */
     color: #fff; /* White text */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .red-button {
-    background-color: red; /* Red background */
+    background-color: rgb(240, 25, 25); /* Red background */
+    color: #fff; /* White text */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reset-button {
+    background-color: rgb(67, 65, 226); /* Red background */
+    color: #fff; /* White text */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.data-sensor {
+    background-color: rgb(187, 26, 160); /* Red background */
     color: #fff; /* White text */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
