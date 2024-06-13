@@ -14,7 +14,8 @@ sudo nano /etc/systemd/system/open-webpage.service
 #After=network.target
 #
 #[Service]
-#ExecStart=/usr/bin/firefox https://example.com
+#ExecStart=/usr/bin/firefox http://192.168.51.10:21200/ords/f?p=101:28
+#ExecStart=/usr/bin/firefox http://192.168.51.10:21200/ords/f?p=101:4
 #User=cic-mXX
 #
 #[Install]
@@ -28,3 +29,4 @@ sudo systemctl enable open-webpage.service
 
 #5. Iniciar el servicio
 sudo systemctl start open-webpage.service
+
