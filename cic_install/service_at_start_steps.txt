@@ -1,0 +1,30 @@
+pasos :
+
+1 crear un documento en
+
+sudo nano /etc/systemd/system/open-webpage.service
+
+#2. Configurar el archivo
+#"""
+#archivo
+3"""
+#
+#[Unit]
+#Description=Open Webpage on Startup
+#After=network.target
+#
+#[Service]
+#ExecStart=/usr/bin/firefox https://example.com
+#User=cic-mXX
+#
+#[Install]
+#WantedBy=default.target
+#
+#3. Recargar los archivos
+sudo systemctl daemon-reload
+
+#4. habilitar el servicio
+sudo systemctl enable open-webpage.service
+
+#5. Iniciar el servicio
+sudo systemctl start open-webpage.service

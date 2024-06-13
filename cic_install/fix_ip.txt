@@ -1,0 +1,43 @@
+1. Copiar código
+
+sudo nano /etc/netplan/00-installer-config.yaml
+
+En este archivo, encontrarás una sección similar a esta (la estructura puede variar según la versión de Ubuntu y la configuración actual):
+
+#network:
+#  version: 2
+#  renderer: networkd
+#  ethernets:
+#    enp0s3:
+#      dhcp4: true
+
+Modifica esta sección para configurar una dirección IP estática. Por ejemplo: yaml
+
+#network:
+#  version: 2
+#  renderer: networkd
+#  ethernets:
+#    enp0s3:
+#      dhcp4: no
+#      addresses: [192.168.1.100/24]
+#      gateway4: 192.168.1.1
+#      nameservers:
+#        addresses: [8.8.8.8, 8.8.4.4]
+
+Reemplaza enp0s3 con el nombre de tu interfaz de red. Ajusta las direcciones IP y la puerta de enlace según corresponda a tu red.
+
+Aplicar los cambios de configuración:
+
+Guarda el archivo y aplica los cambios ejecutando el siguiente comando en la terminal:
+bash
+
+sudo netplan apply
+
+Verificar la configuración:
+
+Verifica que la configuración se haya aplicado correctamente ejecutando el siguiente comando en la terminal:
+
+bash
+Copiar código
+ip a
+Deberías ver la nueva dirección IP asignada a tu interfaz de red.

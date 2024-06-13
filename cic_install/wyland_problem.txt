@@ -1,0 +1,14 @@
+///..............///
+Pasos para solucionar el problema del wayland
+
+Cerrar la sesión:
+
+Primero, cierra la sesión actual. Puedes hacerlo haciendo clic en el icono de usuario en la esquina superior derecha y seleccionando "Cerrar sesión".
+
+Seleccionar el servidor de visualización X11:
+
+En la pantalla de inicio de sesión, antes de ingresar tu contraseña, selecciona tu usuario. Luego, haz clic en el icono de configuración (una rueda dentada o engranaje) en la esquina inferior derecha de la pantalla de inicio de sesión. Aquí deberías ver opciones para seleccionar la sesión. Elige "Ubuntu en Xorg" o "Ubuntu on Xorg" en lugar de la opción predeterminada que usa Wayland.
+
+Iniciar sesión:
+
+Ingresa tu contraseña y haz clic en "Iniciar sesión" o presiona Enter.
